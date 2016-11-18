@@ -57,10 +57,10 @@ const Root = ({ store }) => {
         <Route path="/" component={App}>
           <IndexRoute component={CampaignListContainer}/>
           <Route path="/campaigns" component={CampaignListContainer}/>
+          <Route path="/campaigns/:campaignId" component={CampaignDetailContainer}/>
         </Route>
       </Router>
     </Provider>
   );
 };
-          // <Route path="/campaigns/:campaignId" component={CampaignDetailContainer}/>
 export default Root;
