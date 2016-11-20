@@ -1,4 +1,5 @@
 import React from 'react';
+import Sidebar from '../sidebar/sidebar';
 
 // const CampaignDetail = ({campaignId}) => (
 //   <div>
@@ -12,7 +13,10 @@ class CampaignDetail extends React.Component {
   }
 
   render() {
-    return <div>{ this.props.campaign.name }</div>
+    return <div>
+            <Sidebar currentStep='datail'/>
+            { this.props.campaign.name }
+          </div>;
   }
 }
 
