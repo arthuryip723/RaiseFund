@@ -13,10 +13,12 @@ class CampaignDetail extends React.Component {
   }
 
   render() {
-    return <div>
-            <Sidebar currentStep='datail'/>
-            { this.props.campaign.name }
-          </div>;
+    return (
+      <div>
+        <Sidebar currentStep='datail'/>
+        { this.props.campaign.name }
+      </div>
+    );
   }
 }
 

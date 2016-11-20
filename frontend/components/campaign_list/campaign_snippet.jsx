@@ -1,9 +1,7 @@
 import React from 'react';
 
 const CampaignSnippet = ({ campaign }) => (
-  <div>
-    <div>Name: {campaign.name}</div>
-  </div>
+  <div>Name: {campaign.name}</div>
 );
 
 export default CampaignSnippet;
