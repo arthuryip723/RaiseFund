@@ -7,3 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Campaign.create name: 'Campaign 1'
 Campaign.create name: 'Campaign 2'
+Campaign.create name: 'Campaign 3'
+Campaign.create name: 'Campaign 4'
+Campaign.create name: 'Campaign 5'
+Campaign.create name: 'Campaign 6'
